@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(32 31 54 / 1);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    height: 550px;
+    background-color: rgb(37 35 61 / 1);
+    margin: 150px auto;
+}
+
+h2 {
+    position: absolute;
+    top: 3rem;
+    left: 4rem;
+    color: white;
+    font-size: 27px;
+}
+
+.container p {
+    position: absolute;
+    top: 6rem;
+    left: 4rem;
+    color: white;
+    max-width: 41ch;
+}
+
+.container .first-p {
+    font-size: 20px;
+}
+
+.left-card .circle {
+    position: absolute;
+    top: 17rem;
+    left: 3rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(51 65 85 / 1);
+}
+
+.left-card i {
+    position: absolute;
+    top: 18rem;
+    left: 3.7rem;
+    color: rgb(100 116 139 / 1);
+}
+
+.left-card h3 {
+    position: absolute;
+    top: 22rem;
+    left: 3.5rem;
+    color: white;
+}
+
+.left-card p {
+    position: absolute;
+    top: 24rem;
+    left: 3.5rem;
+    max-width: 30ch;
+}
+
+.left-card a {
+    position: absolute;
+    bottom: 3rem;
+    left: 5rem;
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(101 96 211 / 1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+.left-card a i {
+    position: absolute;
+    top: .9rem;
+    left: 6.8rem;
+    color: white;
+}
+
+.center-card .circle {
+    position: absolute;
+    top: 17rem;
+    left: 24rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(51 65 85 / 1);
+}
+
+.center-card i:first-of-type {
+    position: absolute;
+    top: 18rem;
+    left: 24.8rem;
+    color: rgb(100 116 139 / 1);
+}
+
+.center-card h3 {
+    position: absolute;
+    top: 22rem;
+    left: 24.5rem;
+    color: white;
+}
+
+.center-card p {
+    position: absolute;
+    top: 24rem;
+    left: 24.5rem;
+    max-width: 30ch;
+}
+
+.center-card a {
+    position: absolute;
+    bottom: 4rem;
+    left: 24.5rem;
+    color: rgb(101 96 211 / 1);
+    text-decoration: none;
+}
+
+.center-card i {
+    position: absolute;
+    bottom: 4rem;
+    left: 37rem;
+    color: rgb(101 96 211 / 1);
+}
+
+.right-card .circle {
+    position: absolute;
+    top: 17rem;
+    left: 45rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(51 65 85 / 1);
+}
+
+.right-card i:first-of-type {
+    position: absolute;
+    top: 18rem;
+    left: 45.7rem;
+    color: rgb(100 116 139 / 1);
+}
+
+.right-card h3 {
+    position: absolute;
+    top: 22rem;
+    left: 45rem;
+    color: white;
+}
+
+.right-card p {
+    position: absolute;
+    top: 24rem;
+    left: 45rem;
+    max-width: 30ch;
+}
+
+.right-card a {
+    position: absolute;
+    bottom: 4rem;
+    left: 45rem;
+    color: rgb(101 96 211 / 1);
+    text-decoration: none;
+}
+
+.right-card i {
+    position: absolute;
+    bottom: 4rem;
+    left: 52rem;
+    color: rgb(101 96 211 / 1);
+}
+
